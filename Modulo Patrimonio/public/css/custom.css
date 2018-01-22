@@ -1,0 +1,51 @@
+nav.navbar.navbar-default{
+background-color: #000000;
+border-color: #2e6da4;
+margin-top: 10px;
+}
+nav.navbar.navbar-default a {
+color: white;
+}
+li p.navbar-text, a.navbar-brand {
+color: white!important ;
+font-weight: bolder;
+}
+footer.footer {
+background-color: #000000;
+border-color: #2e6da4;
+margin-top: 55px;
+color: white;
+border-radius: 5px;
+}
+footer.footer p {
+padding: 10px;
+}
+
+.menu ul li {
+
+	background-color:#000000;
+}
+
+.menu ul li:hover{
+
+	background-color: #000000;
+}
+
+.menu ul li{
+
+	background-color: #FFFFFF;
+}
+
+
+
+.menu ul ul li{
+	float: nome;
+	border-bottom:solid 1px #ccc; 
+	
+}
+
+.menu ul li ul li a:hover{
+
+	
+	color: #555;
+}
