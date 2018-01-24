@@ -1,0 +1,25 @@
+php artisan make:model -m Departamento
+php artisan make:model -m Usuario
+php artisan make:model -m Modulo
+php artisan make:model Permissao
+php artisan make:migration create_permissoes_table
+php artisan make:model TipoUsuario
+php artisan make:migration create_tipos_usuarios_table
+php artisan make:migration create_permissao_tipo_usuario_table
+php artisan make:migration create_tipo_usuario_usuario_table
+php artisan make:model Servidor
+php artisan make:migration create_servidores_table
+php artisan make:model -m Predio
+php artisan make:model -m Sala
+php artisan make:model Setor
+php artisan make:migration create_setores_table
+php artisan make:model -m Marca
+php artisan make:model -m Grupo
+php artisan make:model -m Subgrupo
+php artisan make:model -m Patrimonio
+php artisan make:model Status
+php artisan make:migration create_statuses_table
+php artisan make:migration create_historico_patrimonio_status
+php artisan make:migration create_historico_patrimonio_setor
+php artisan make:model Solicitacao
+php artisan make:migration create_solicitacoes_table
